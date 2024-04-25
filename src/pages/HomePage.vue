@@ -1,5 +1,5 @@
 <template>
-    <div id="app">
+    <div>
     <div class="container">
       <div class="intro">
           <p class="intro-title">Let Your Home <br>Be Unique</p>
@@ -19,7 +19,8 @@
                             <p class="project_title">Modern Kitchan</p>
                             <p class="project-subtitle">Decor / Artchitecture</p> 
                         </div>
-                        <img class="project-arrow" src="@/assets/arrow.png" alt="arrow">
+                        
+                        <router-link to="/project_details" class="head-items"><img class="project-arrow" src="@/assets/arrow.png" alt="arrow"></router-link>
                     </div>  
                 </div>
                 

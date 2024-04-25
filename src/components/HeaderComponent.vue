@@ -1,5 +1,5 @@
 <template>
-    <div id="app">
+    <div>
         <div class="container">
             <header>
             <img class="logo-img" src="@/assets/Logo.svg" alt="Logo">
@@ -19,6 +19,10 @@
 </template>
 
 <style>
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
 header {
     display: flex;
     flex-wrap: wrap;

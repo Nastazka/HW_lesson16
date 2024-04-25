@@ -10,7 +10,7 @@
             </div>
         </div>
         <div class="footer-card">
-            <nav>
+            <nav class="footer_nav">
                 <router-link to="/home" class="head-items">Home</router-link>
                 <router-link to="/project" class="head-items">Project</router-link>
                 <router-link to="/Blog" class="head-items">Blog</router-link>

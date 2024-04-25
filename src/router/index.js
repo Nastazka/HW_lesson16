@@ -3,6 +3,7 @@ import Router from 'vue-router'
 import HomePage from '@/pages/HomePage.vue'
 import ProjectPage from '@/pages/ProjectPage'
 import BlogPage from '@/pages/BlogPage'
+import ProjectDetails from '@/pages/ProjectDetails'
 import NotFound from '@/pages/NotFound.vue'
 
 
@@ -25,6 +26,11 @@ export default new Router({
             path: '/blog',
             name: 'blog',
             component: BlogPage
+        },
+        {
+            path: '/project_details',
+            name: 'projectDetails',
+            component: ProjectDetails
         },
         {
             path: '/404',
